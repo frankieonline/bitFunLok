@@ -5,12 +5,9 @@ namespace bitFunLok {
     //% blockId="getPainoStatus"
     //% weight=1
     export function getPainoStatus():number {
-        let foil2: number;
-        let foil1: number;
-        let foil0: number;
         let status: number;
 
-        let status = 0;
+        status = 0;
         if (pins.digitalReadPin(DigitalPin.P2) == PulseValue.High) {
             status += 4;
         }
