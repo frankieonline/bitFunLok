@@ -1,4 +1,4 @@
-//% weight=0 color=#CCff33 icon="\uf001" block="bit Fun 樂"
+//% weight=0 color=#11afae icon="\uf001" block="bit Fun 樂"
 namespace bitFunLok {
     /** Return the input of the Foil Paper */
     //% block="paino status (P2, P8, P1)"
