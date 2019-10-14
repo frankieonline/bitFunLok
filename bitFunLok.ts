@@ -8,13 +8,13 @@ namespace bitFunLok {
         let status: number;
 
         status = 0;
-        if (pins.digitalReadPin(DigitalPin.P2) == PulseValue.High) {
+        if (pins.digitalReadPin(DigitalPin.P2) == 1) {
             status += 4;
         }
-        if (pins.digitalReadPin(DigitalPin.P8) == PulseValue.High) {
+        if (pins.digitalReadPin(DigitalPin.P8) == 1) {
             status += 2;
         }
-        if (pins.digitalReadPin(DigitalPin.P1) == PulseValue.High) {
+        if (pins.digitalReadPin(DigitalPin.P1) == 1) {
             status += 1;
         }
         return status;
